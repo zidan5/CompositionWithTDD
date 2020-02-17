@@ -1,14 +1,14 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class AnimalTests{
+public class AnimalTest1{
 
     Dog d1 = new Dog();
     Cat c1 = new Cat();
 
     @Test
     public void TestDogSound(){
-       Assert.assertEquals(d1.sound(),"Barks");
+        Assert.assertEquals(d1.sound(),"Barks");
     }
     @Test
     public void TestDogEats(){
